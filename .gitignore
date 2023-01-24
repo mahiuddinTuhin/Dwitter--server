@@ -1,0 +1,50 @@
+node_modules/
+npm-debug.log
+.env
+
+# local environment files
+.env.local
+.env.*.local
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+dependency-check-data
+
+# Compiled assets
+dist
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# pids
+*.pid
+*.seed
+*.pid.lock
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm

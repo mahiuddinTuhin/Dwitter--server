@@ -7,6 +7,7 @@ import morgan from "morgan";
 import multer from "multer";
 import path from "path";
 import { fileURLToPath } from "url";
+import { register } from "./controllers/auth.js";
 
 /*  ALL THE MIDDLEWARE AND DIFFERENT PACKAGE CONFIGURATION */
 

@@ -1,6 +1,5 @@
 import bcrypt from "bcrypt";
-import { Jwt } from "jsonwebtoken";
-import User from "../modules/User";
+import User from "../modules/User.js";
 
 /* REGISTER USER */
 
@@ -37,6 +36,6 @@ export const register = async (req, res) => {
     const saveUser = await newUser.save();
     res.status(201).json(savedUser);
   } catch (err) {
-      res.status(500).json({error: err.message})
+    res.status(500).json({ error: err.message });
   }
 };
